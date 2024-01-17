@@ -1,3 +1,7 @@
+<h4 align="center"> 
+    :construction:  Projeto em construção  :construction:
+</h4>
+
 # Calculadora simpleCalc
 Projeto desenvolvido na Escola de Habilidades Digitais Digital College. Criação de calculadora baseado num layout da plataforma Dribbble.com com HTML, CSS e Javascript.
 Foi abordado os conceitos de Eventos, Varáveis, Funções, Lógica de programação em JS.
