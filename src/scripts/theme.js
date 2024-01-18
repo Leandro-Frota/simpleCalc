@@ -1,5 +1,4 @@
 let themeButton = document.getElementById('themeButton');
-let selectDarkLight = document.getElementById('selectDarkLight')
 let sideRigth = document.getElementById('sideRigth')
 
 themeButton.addEventListener('click', function () {
@@ -7,6 +6,7 @@ themeButton.addEventListener('click', function () {
     body.classList.toggle('light');
 
     window.localStorage.setItem("theme", body.classList.value)
+  
 
     iconTheme.classList.toggle('fa-moon');
     iconTheme.classList.toggle('fa-sun');
@@ -24,6 +24,8 @@ selectDarkLight.addEventListener('change', function () {
         sideRigth.classList.remove('purple')
         sideRigth.classList.add('yellow')
     }
+
+    window.localStorage.setItem("themeRigth",sideRigth.classList.value)
 })
 
 

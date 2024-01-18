@@ -134,11 +134,6 @@ input:focus {
     color: var(--primaryColor);
 }
 
-#iconTheme {
-    font-size: 1.4rem;
-    color: var(--primaryColor);
-}
-
 #iconTheme2{
     font-size: 1.4rem;
     color: var(--textColor);
