@@ -4,7 +4,7 @@ const selectDarkLight = document.getElementById('selectDarkLight')
 let body = document.querySelector('body');
 let iconTheme = document.getElementById('iconTheme');
 
-console.log(selectedTheme)
+
 
 if(selectedTheme ==="dark"){
     body.classList.toggle('dark');
@@ -18,7 +18,6 @@ if(selectedThemeRigth ==="eachCol right purple"){
     sideRigth.classList.toggle('yellow');
     sideRigth.classList.toggle('purple');
 
-
-    selectDarkLight.value = "dark"
+    selectDarkLight.value = 'dark'
  
 }

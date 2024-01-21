@@ -15,7 +15,7 @@ themeButton.addEventListener('click', function () {
 
 selectDarkLight.addEventListener('change', function () {
 
-    console.log(selectDarkLight.value)
+
 
     if (selectDarkLight.value == 'dark') {
         sideRigth.classList.remove('yellow')
@@ -26,6 +26,7 @@ selectDarkLight.addEventListener('change', function () {
     }
 
     window.localStorage.setItem("themeRigth",sideRigth.classList.value)
+    console.log(selectDarkLight.value )
 })
 
 
